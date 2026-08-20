@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "documents": [
+    {
+      "document_id": "synthetic-0001",
+      "file": "synthetic-0001.pdf",
+      "expected": {
+        "tipo_comprobante": null,
+        "ruc_emisor": null,
+        "razon_social_emisor": null,
+        "serie": null,
+        "numero_comprobante": null,
+        "fecha_emision": null,
+        "moneda": null,
+        "subtotal": null,
+        "igv": null,
+        "total": null
+      },
+      "tags": ["synthetic", "pdf_native"]
+    }
+  ]
+}
+

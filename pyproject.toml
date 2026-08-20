@@ -1,0 +1,43 @@
+[project]
+name = "invoice-extractor"
+version = "0.1.0"
+description = "Base técnica para extracción local de comprobantes de pago"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+license = { text = "Proprietary" }
+dependencies = [
+    "fastapi==0.140.8",
+    "paddleocr==3.7.0",
+    "paddlepaddle==3.3.1",
+    "pillow==12.3.0",
+    "pydantic==2.13.4",
+    "pydantic-settings==2.14.2",
+    "pymupdf==1.28.0",
+    "uvicorn==0.52.4",
+]
+
+[dependency-groups]
+dev = [
+    "httpx2==2.12.0",
+    "pytest==9.1.1",
+    "ruff==0.16.0",
+]
+
+[build-system]
+requires = ["hatchling>=1.27,<2"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/invoice_extractor"]
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+extend-exclude = ["*.md"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
