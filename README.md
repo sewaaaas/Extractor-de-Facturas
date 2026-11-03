@@ -1,12 +1,14 @@
 # Extractor de facturas
 
-Proyecto personal en Python para explorar la lectura de comprobantes mediante OCR y archivos PDF.
+Proyecto personal en Python para facilitar la rendición de viáticos: la idea es leer varias boletas y facturas, extraer sus datos y organizarlos en un único archivo Excel.
 
 ## ¿Por qué lo empecé?
 
 El proyecto surgió al ver cómo se gestionaban las rendiciones de viáticos de los vendedores. Los comprobantes llegaban en distintos formatos: algunos eran electrónicos y otros eran boletas físicas que se escaneaban. Revisarlos y registrar sus datos manualmente hacía que el proceso fuera más lento.
 
-La idea es usar OCR para leer esos comprobantes y facilitar el registro de la información. **Por ahora sigue en desarrollo:** estoy probando las herramientas de lectura de imágenes y PDF, pero aún no automatiza las rendiciones ni procesa comprobantes reales de principio a fin.
+Mi objetivo es que se puedan cargar varios comprobantes, tanto electrónicos como escaneados, y que sus datos queden ordenados en una tabla de Excel sin tener que copiarlos uno por uno.
+
+**Por ahora sigue en desarrollo:** estoy probando la lectura de imágenes y PDF mediante OCR. Todavía no procesa lotes de comprobantes ni genera automáticamente el Excel.
 
 ## Herramientas
 
