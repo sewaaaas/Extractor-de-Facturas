@@ -1,9 +1,6 @@
 # Extractor de facturas
 
 Proyecto personal en Python para facilitar la rendición de viáticos: la idea es leer varias boletas y facturas, extraer sus datos y organizarlos en un único archivo Excel.
-
-## ¿Por qué lo empecé?
-
 El proyecto surgió al ver cómo se gestionaban las rendiciones de viáticos de los vendedores. Los comprobantes llegaban en distintos formatos: algunos eran electrónicos y otros eran boletas físicas que se escaneaban. Revisarlos y registrar sus datos manualmente hacía que el proceso fuera más lento.
 
 Mi objetivo es que se puedan cargar varios comprobantes, tanto electrónicos como escaneados, y que sus datos queden ordenados en una tabla de Excel sin tener que copiarlos uno por uno.
