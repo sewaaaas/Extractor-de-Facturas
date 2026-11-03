@@ -2,7 +2,11 @@
 
 Proyecto personal en Python para explorar la lectura de comprobantes mediante OCR y archivos PDF.
 
-La idea es facilitar la extracción de información de facturas. Por ahora es una base técnica: todavía no realiza una extracción completa de datos reales ni tiene una interfaz para cargar documentos.
+## ¿Por qué lo empecé?
+
+El proyecto surgió al ver cómo se gestionaban las rendiciones de viáticos de los vendedores. Los comprobantes llegaban en distintos formatos: algunos eran electrónicos y otros eran boletas físicas que se escaneaban. Revisarlos y registrar sus datos manualmente hacía que el proceso fuera más lento.
+
+La idea es usar OCR para leer esos comprobantes y facilitar el registro de la información. **Por ahora sigue en desarrollo:** estoy probando las herramientas de lectura de imágenes y PDF, pero aún no automatiza las rendiciones ni procesa comprobantes reales de principio a fin.
 
 ## Herramientas
 
